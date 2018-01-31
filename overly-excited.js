@@ -6,7 +6,7 @@ let tens = sentence.reverse();
     the array as the sole argument. It should iterate over the array
     and output the words to the browser console.
 */
-function addExcitement (array, char) {
+var addExcitement = (array, char) => {
     var list = [];
     var modulo;
     var modCounter = -1;
@@ -29,6 +29,6 @@ function addExcitement (array, char) {
 }
 
 
-// Invoke the function and pass in the array
-addExcitement(sentence, "?");
-addExcitement(tens, "~");
+// Invoke the function and pass in the array, and character
+addExcitement(sentence,"?");
+addExcitement(sentence,"~");
